@@ -1,0 +1,130 @@
+*{ 
+   font-family: 'DroidArabicKufiRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+   direction: rtl;
+}
+
+.nav{
+    background-color:#383838;
+    border-radius: 5px;
+}
+
+ .container .nav{
+    max-width: 1000px;
+    margin-top: 5px;
+    
+    margin-right: 5%;
+}
+
+nav ul li a{
+    color: #fff;
+}
+
+.container nav ul li a:hover{
+    color: #73af59;
+}
+
+.search{
+    margin-right: 90px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.nav2{
+    background-color: #f8f8f8;
+    text-align:center;
+}
+
+.nav2 nav ul{
+     margin-right: 25%;
+}
+
+.nav2 nav ul li a{
+    color: #000;
+    text-align:center;
+    margin-left: 30px;
+}
+
+.nav2 nav ul li a:hover{
+   transform: scale(1.1);
+   color: #73af59;
+}
+
+.logo{
+    height: 100px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.logo h2{
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    font-size: 4em;
+}
+
+.about{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #73af59;
+}
+
+.about .container h2{
+    color: #fff;
+    text-align: center;
+}
+
+.container{
+    max-width: 500px;
+}
+
+.container .text{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.footer{
+    background-color:#383838;
+    height: 250px;
+    color: #fff;
+}
+
+.footer .container{
+    max-width: 1000px;
+}
+
+.footer .container .row{
+    direction: rtl;
+    text-align: right;
+}
+
+h4{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.col-md-5 .left img{
+    height: 40px;
+    width: 40px;
+}
+
+.col-md-5 .left{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+} 
+
+.black{
+    background-color: #202020;
+    height: 50px;
+}
+
+.black .container p{
+    padding-top: 15px;
+    text-align: center;
+    color: #b8b8b8;
+}
